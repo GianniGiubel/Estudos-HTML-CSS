@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body {
+    background-color: bisque;     
+    margin: 0px;   
+}
+header {    
+    background-image: linear-gradient(to top, rgb(1, 56, 1), green, lightgreen);    
+    margin: 0px;
+    padding: 10px;
+}
+header > p {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.583);
+    text-align: center;
+    color: white;
+}
+h1 {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.617);
+    text-align: center;
+    color: white;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+}
+nav > a:hover {    
+    background-color: lightgreen;
+    text-decoration: underline;
+}
+main {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    text-align: center;
+    width: 800px;
+    padding: 10px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+article > p > a {
+    background-color: lightgreen;
+}
+strong {
+    color: darkgreen;
+}
+h2 {
+    text-align: left;
+    color: darkgreen;
+}
+h3 {
+    text-align: left;
+    background-image: linear-gradient(to right, rgba(0, 100, 0, 0.359), rgba(0, 128, 0, 0.438), rgba(144, 238, 144, 0.096));
+    color: darkgreen;
+}
+section#secvideo {
+    background-color: darkgreen; 
+    padding: 10px;  
+}
+article#curiosidades {
+    background-color: rgba(144, 238, 144, 0.6);
+    border-radius: 10px;
+    padding: 0px 10px 10px 10px;
+}
+article > h3#curios {
+    text-align: left;
+    color: white;
+    background-color: darkgreen;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+
+}
+article > ul {
+    text-align: left;
+    display: inline-block;
+}
+footer {
+    background-color: darkgreen;
+    text-align: center; 
+    margin-top: 10px; 
+    padding: 5px;
+       
+}
+footer > p > strong {
+    color: black;
+}
+footer > p {
+    margin: 0px;
+}

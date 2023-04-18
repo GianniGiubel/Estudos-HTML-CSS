@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*  Seletores personalizados!
+            #  = id
+            .  = class
+            :  = pseudo classe
+            :: = pseudo elemento
+            >  = children
+        */
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        /*Pseudo Classes são palavaras que definem estados de elementos dentro do html. Alguns exemplos abaixo!*/
+        a:visited {
+            color: rgb(134, 33, 33);
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a:active {
+            color: gold;
+        }
+        a::before {
+            content: ' ☛ ';
+        }
+        a::after {
+            content: ' ☚';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgba(116, 117, 118, 0.761);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io">Repositório Git hub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/">Para o canal do youtube</a></li>
+        <li><a href="https://cursoemvideo.com">Site do Curso em vídeo</a></li>
+    </ul>
+</body>
+</html>
