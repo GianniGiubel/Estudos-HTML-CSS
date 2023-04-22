@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: black;
+    height: 200px;
+}
+header h1 {    
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+header p {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+header p a {
+    text-decoration: none;
+    color: white;
+}
+main div#imagemum {
+    background-image: url('pacote-d012/imagens/background001.jpg');    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main div#imagemdois {
+    background-image: url('pacote-d012/imagens/background002.jpg');    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section {
+    display: flex;
+    background-color: white;
+    justify-content: start;    
+    align-items: center; 
+    height: 600px;   
+    padding: 20px;
+}
+section p {      
+    height: 380px;
+    width: 400px;
+    padding: 15px;
+    margin-left: 50px;
+    font-size: 2em;    
+    line-height: 1.5em;
+    text-align: justify;
+}
+section.branco { 
+    flex-direction: column; 
+    align-items: start; 
+    justify-content: center;           
+    height: 800px;
+}
+section.branco p {
+    background-color: white;
+}
+section.transparente {
+    background-color: transparent;
+    height: 600px;    
+}
+section.transparente p {
+    background-color: rgba(0, 0, 0, 0.218);
+    color: white;    
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.283);
+}
+footer {
+    background-color: black;    
+}
+footer p {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+footer p a {
+    text-decoration: none;
+    color: white;
+}
